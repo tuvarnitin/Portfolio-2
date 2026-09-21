@@ -37,7 +37,7 @@ export default function Hero() {
         }
       });
 
-      const tl = gsap.timeline({ delay: 2.2 });
+      const tl = gsap.timeline({ delay: 1.2 });
 
       tl.to(overlineRef.current, {
         opacity: 1,
