@@ -76,7 +76,7 @@ function App() {
           <Experience />
           <Projects />
           <Suspense fallback={null}>
-            {/* <Dashboard /> */}
+            <Dashboard />
           </Suspense>
         </main>
         <Footer />
