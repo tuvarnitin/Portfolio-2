@@ -36,7 +36,7 @@ const Projects = () => {
                 <div className="project-card-overlay" />
                 <div className="project-card-badges">
                   <span className="project-card-status" style={{ color: project.color }}>
-                    {project.demo ? 'Live' : 'In Progress'}
+                    {project.demo ? 'Live' : 'Live'}
                   </span>
                 </div>
               </div>
