@@ -13,7 +13,7 @@ export const projects = [
     ],
     challenges: [],
     tech: ['Next.JS','Typescript'],
-    github: 'https://github.com/tuvarnitin/muskan-portfolio',
+    github: null,
     demo: 'https://artist-muskan.vercel.app',
     color: '#ec4899',
     image: '/images/muskan-portfolio.png',
