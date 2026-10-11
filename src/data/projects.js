@@ -1,4 +1,24 @@
 export const projects = [
+  
+  {
+    id: 'muskan-portfolio',
+    name: 'Sketch Artist Portfolio',
+    tagline: 'Personal Portfolio Website',
+    description: 'A personal portfolio website showcasing Muskan’s profile, skills, and projects.',
+    features: [
+      'Personal profile and introduction',
+      'Projects showcase',
+      'Skills and experience overview',
+      'Responsive portfolio design',
+    ],
+    challenges: [],
+    tech: ['Next.JS','Typescript'],
+    github: 'https://github.com/tuvarnitin/muskan-portfolio',
+    demo: 'https://artist-muskan.vercel.app',
+    color: '#ec4899',
+    image: '/images/muskan-portfolio.png',
+  },
+  
   {
     id: 'moveez',
     name: 'MoveEZ',
