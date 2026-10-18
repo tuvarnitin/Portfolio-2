@@ -32,7 +32,7 @@ export const projects = [
   github: 'https://github.com/tuvarnitin/Atelier-Horloger-Watch',
   demo: 'https://atelier-horloger-watch.vercel.app',
   color: '#BFA06A',
-  image: '/images/atelier-horloger-watch.png',
+  image: '/images/atelier-horloger-watch.jpg',
 },
 {
   id: 'apex-one',
@@ -64,7 +64,7 @@ export const projects = [
   github: 'https://github.com/tuvarnitin/apex-next',
   demo: 'https://apex-beyond.vercel.app/',
   color: '#E63946',
-  image: '/images/apex-one.png',
+  image: '/images/apex-one.jpg',
 },
   {
     id: 'muskan-portfolio',
