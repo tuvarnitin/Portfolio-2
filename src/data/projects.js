@@ -1,5 +1,71 @@
 export const projects = [
-  
+  {
+  id: 'atelier-horloger-watch',
+  name: 'Atelier Horloger Watches',
+  tagline: 'Atelier Horloger: Scroll-Controlled 3D Watch Disassembly',
+  description:
+    'A cinematic luxury watch experience featuring scroll-controlled 3D disassembly, revealing intricate watch components through immersive animations and interactive storytelling.',
+  features: [
+    'Scroll-controlled 3D watch disassembly',
+    'Interactive 3D rendering with React Three Fiber',
+    'GSAP ScrollTrigger-powered animations',
+    'Cinematic storytelling and visual transitions',
+    'Framer Motion-powered UI animations',
+    'Responsive luxury-inspired design',
+  ],
+  challenges: [
+    'Synchronizing 3D model animations with scroll progress',
+    'Maintaining smooth rendering performance for complex 3D scenes',
+    'Coordinating GSAP ScrollTrigger with React Three Fiber',
+    'Creating a cinematic experience across different screen sizes',
+  ],
+  tech: [
+    'Next.js',
+    'TypeScript',
+    'Tailwind CSS',
+    'React Three Fiber',
+    'Three.js',
+    'GSAP',
+    'ScrollTrigger',
+    'Framer Motion',
+  ],
+  github: 'https://github.com/tuvarnitin/Atelier-Horloger-Watch',
+  demo: 'https://atelier-horloger-watch.vercel.app',
+  color: '#BFA06A',
+  image: '/images/atelier-horloger-watch.png',
+},
+{
+  id: 'apex-one',
+  name: 'Apex One',
+  tagline: 'A 3D Website Where Scroll Tells the Story',
+  description:
+    'A cinematic website for a fictional hypercar brand, combining immersive 3D visuals, scroll-directed animations, and premium automotive-inspired storytelling.',
+  features: [
+    'Interactive 3D hypercar experience',
+    'Scroll-driven cinematic storytelling',
+    'GSAP ScrollTrigger animations',
+    'Three.js-powered 3D visuals',
+    'Premium automotive-inspired design',
+    'Responsive layouts and animated transitions',
+  ],
+  challenges: [
+    'Synchronizing cinematic animations with scroll position',
+    'Optimizing 3D rendering for browser performance',
+    'Managing complex animation timelines with GSAP',
+    'Maintaining a consistent visual experience across devices',
+  ],
+  tech: [
+    'Next.js 16',
+    'TypeScript',
+    'GSAP',
+    'ScrollTrigger',
+    'Three.js',
+  ],
+  github: 'https://github.com/tuvarnitin/apex-next',
+  demo: 'https://apex-beyond.vercel.app/',
+  color: '#E63946',
+  image: '/images/apex-one.png',
+},
   {
     id: 'muskan-portfolio',
     name: 'Sketch Artist Portfolio',
